@@ -24,4 +24,7 @@ public class Procesador {
     public void setPotencia(int potencia){
         this.potencia = potencia;
     }
+    public void imprimirDetalles() {
+        System.out.println("Modelo: " + modelo + " | Potencia: " + potencia);
+    }
 }
