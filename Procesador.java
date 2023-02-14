@@ -12,4 +12,16 @@ public class Procesador {
         this.modelo = modelo;
         this.potencia = potencia;
     }
+    public String getModelo(){
+        return modelo;
+    }
+    public void setModelo(String modelo){
+        this.modelo = modelo;
+    }
+    public int getPotencia(){
+        return potencia;
+    }
+    public void setPotencia(int potencia){
+        this.potencia = potencia;
+    }
 }
