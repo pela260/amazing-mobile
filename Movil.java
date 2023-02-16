@@ -39,4 +39,7 @@ public class Movil
     public void GPU(String modelo, int potencia) {
         GPU = new Procesador(modelo, potencia);
     }
+    public void imprimirDetalles() {
+        System.out.println("Marca: " + marca + " | Encendido: " + encendido + " | GPU: " + GPU);
+    }
 }
