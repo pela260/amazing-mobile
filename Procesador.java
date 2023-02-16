@@ -27,4 +27,5 @@ public class Procesador {
     public void imprimirDetalles() {
         System.out.println("Modelo: " + modelo + " | Potencia: " + potencia);
     }
+    
 }

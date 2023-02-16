@@ -30,4 +30,13 @@ public class Movil
     public Procesador getGPU(){
         return GPU;
     }
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    public void setEncendido(boolean estado) {
+        encendido = estado;
+    }
+    public void GPU(String modelo, int potencia) {
+        GPU = new Procesador(modelo, potencia);
+    }
 }
