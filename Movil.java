@@ -21,4 +21,13 @@ public class Movil
         encendido = false;
         GPU = new Procesador("",5);
     }
+    public String getMarca(){
+        return marca;
+    }
+    public boolean getEncendido(){
+        return encendido;
+    }
+    public Procesador getGPU(){
+        return GPU;
+    }
 }
