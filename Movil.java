@@ -15,8 +15,10 @@ public class Movil
     /**
      * Constructor for objects of class Movil
      */
-    public Movil()
+    public Movil(String marca)
     {
-        
+        this.marca = marca;
+        encendido = false;
+        GPU = new Procesador("",5);
     }
 }
