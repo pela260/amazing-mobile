@@ -36,10 +36,10 @@ public class Movil
     public void setEncendido(boolean estado) {
         encendido = estado;
     }
-    public void GPU(String modelo, int potencia) {
+    public void setGPU(String modelo, int potencia) {
         GPU = new Procesador(modelo, potencia);
     }
     public void imprimirDetalles() {
-        System.out.println("Marca: " + marca + " | Encendido: " + encendido + " | GPU: " + GPU);
+        System.out.println("Marca: " + marca + " | Encendido: " + encendido + " | modelo: " + GPU.getModelo() + " | potencia: " + GPU.getPotencia());
     }
 }
